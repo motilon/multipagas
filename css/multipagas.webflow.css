@@ -1,0 +1,781 @@
+.navbar {
+  padding-top: 7px;
+  padding-bottom: 4px;
+  border-bottom: 2px none #044f96;
+  background-color: transparent;
+}
+
+.navmenu {
+  top: 4px;
+  margin-top: 35px;
+}
+
+.navlink {
+  margin-left: 2px;
+  padding: 10px 15px;
+  border-radius: 5px 5px 0px 0px;
+  background-color: #feca43;
+  font-family: Rubik, sans-serif;
+  color: #044f96;
+  font-size: 1.1em;
+  font-weight: 400;
+}
+
+.navlink:hover {
+  background-color: #044f96;
+  color: white;
+}
+
+.navlink.w--current {
+  background-color: #044f96;
+  color: #feca43;
+}
+
+.navlink.submenu {
+  padding-right: 41px;
+}
+
+.contenedor {
+  max-width: 1000px;
+}
+
+.s-slider {
+  height: 400px;
+  border-top-width: 3px;
+  border-top-color: #4798e4;
+  background-image: -webkit-linear-gradient(180deg, rgba(5, 80, 150, 0.99), #044f96 16%, #044f96 41%, #feca43 64%, #feca43 83%, #feca43);
+  background-image: linear-gradient(270deg, rgba(5, 80, 150, 0.99), #044f96 16%, #044f96 41%, #feca43 64%, #feca43 83%, #feca43);
+}
+
+.slider-home {
+  height: 400px;
+}
+
+.s-bancolombia {
+  height: auto;
+  padding-bottom: 55px;
+  background-color: #ececec;
+  font-family: Rubik, sans-serif;
+  color: #585757;
+  font-size: 1.5em;
+  font-weight: 400;
+  text-align: center;
+}
+
+.img-bancolombia {
+  margin-bottom: 30px;
+}
+
+.img-bancolombia.sidebar {
+  margin-top: 2px;
+  margin-bottom: 20px;
+}
+
+.h1 {
+  margin-top: 5px;
+  margin-bottom: 25px;
+  font-family: Rubik, sans-serif;
+  color: #044f96;
+  font-size: 1.7em;
+  line-height: 29px;
+  font-weight: 500;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.h1.interna {
+  text-align: left;
+}
+
+.col-servicios {
+  margin-top: 45px;
+  margin-bottom: 30px;
+}
+
+.icon-servicios {
+  float: right;
+}
+
+.h2 {
+  margin-top: 10px;
+  color: #044f96;
+  font-size: 0.9em;
+  line-height: 18px;
+  font-weight: 400;
+  text-align: center;
+  letter-spacing: -1px;
+}
+
+.h2:hover {
+  color: black;
+}
+
+.caja-servicios {
+  display: inline-block;
+  width: 280px;
+  margin-top: 45px;
+}
+
+.linea {
+  display: block;
+  margin-top: 33px;
+  margin-right: auto;
+  margin-left: auto;
+  float: none;
+  clear: none;
+}
+
+.s-puntos {
+  height: auto;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  background-color: transparent;
+  font-family: Rubik, sans-serif;
+  font-size: 1em;
+  text-align: center;
+}
+
+.t-secciones {
+  margin-bottom: 5px;
+  font-family: Rubik, sans-serif;
+  color: #044f96;
+  font-size: 1.6em;
+  line-height: 29px;
+  font-weight: 500;
+  letter-spacing: -2px;
+}
+
+.t-secciones.ciudades {
+  margin-bottom: 15px;
+  font-weight: 300;
+  letter-spacing: -1px;
+}
+
+.mapa-puntos {
+  position: relative;
+  top: -36px;
+}
+
+.link-g {
+  color: #044f96;
+  font-size: 1.2em;
+  font-weight: 400;
+  letter-spacing: -1px;
+  text-decoration: underline;
+}
+
+.link-g:hover {
+  color: #585757;
+}
+
+.s-footer {
+  height: auto;
+  padding: 45px 30px;
+  background-color: white;
+}
+
+.t-footer {
+  display: inline-block;
+  margin-bottom: 30px;
+  border-bottom: 2px solid #fdf04f;
+  font-family: Rubik, sans-serif;
+  color: #fdf04f;
+  font-size: 1.2em;
+}
+
+.sub-footer {
+  font-family: Rubik, sans-serif;
+  color: #feca43;
+  font-size: 1.1em;
+  font-weight: 300;
+}
+
+.sub-footer.des {
+  color: #86a7c5;
+  font-size: 1em;
+  font-style: italic;
+  font-weight: 400;
+}
+
+.caja-puntos-footer {
+  margin-bottom: 10px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #2d6599;
+}
+
+.s-atencion {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  background-color: #feca43;
+  font-family: Rubik, sans-serif;
+  color: #044f96;
+  font-size: 1em;
+  line-height: 16px;
+  font-weight: 500;
+  text-align: center;
+}
+
+.s-logos {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  font-size: 1.5em;
+  text-align: center;
+}
+
+.tira-logos {
+  margin-top: 29px;
+  padding-bottom: 15px;
+  border-bottom: 1px solid #044f96;
+}
+
+.content-tpaginas {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  right: 0px;
+}
+
+.s-contenido {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  font-family: Rubik, sans-serif;
+  color: #777;
+  font-size: 1.1em;
+  font-weight: 400;
+  text-align: justify;
+}
+
+.t-paginas {
+  color: #feca43;
+  font-size: 2em;
+  text-align: left;
+  text-transform: uppercase;
+}
+
+.col1-contenido {
+  padding-right: 42px;
+}
+
+.col2-contenido {
+  top: -56px;
+  padding-bottom: 55px;
+  padding-left: 30px;
+  border-top: 10px solid #feca43;
+  border-bottom-right-radius: 20px;
+  background-color: #044f96;
+}
+
+.t-sidebar {
+  margin-bottom: 28px;
+  color: #feca43;
+  font-size: 1.2em;
+}
+
+.link-relacionados {
+  display: block;
+  margin-bottom: 10px;
+  color: white;
+  font-weight: 300;
+  text-align: left;
+}
+
+.link-relacionados:hover {
+  color: #feca43;
+}
+
+.img-contenido {
+  margin-top: 29px;
+}
+
+.link-servicio {
+  width: 280px;
+  margin-bottom: 53px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.img-con-interna {
+  margin-bottom: 21px;
+}
+
+.icon-sub {
+  margin-right: 10px;
+}
+
+.dropdown-list {
+  background-color: white;
+}
+
+.dropdown-list.w--open {
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-bottom-left-radius: 6px;
+  border-bottom-right-radius: 6px;
+  background-color: white;
+  box-shadow: #303030 0px 3px 6px 0px;
+}
+
+.dropdown-link {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  font-family: Rubik, sans-serif;
+  color: #044f96;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.dropdown-link:hover {
+  color: black;
+}
+
+.dropdown-link.w--current {
+  color: black;
+}
+
+.form-contacto {
+  margin-top: 45px;
+}
+
+.campo-form {
+  width: 500px;
+  border: 1px solid #599cdb;
+  border-radius: 5px;
+}
+
+.campo-form.comment {
+  height: 130px;
+}
+
+.btn-enviar {
+  border-radius: 5px;
+  background-color: #044f96;
+  color: #feca43;
+}
+
+.btn-enviar:hover {
+  background-color: #feca43;
+  color: #044f96;
+}
+
+.slider-aliados {
+  height: 100px;
+  margin-top: 30px;
+  background-color: transparent;
+  text-align: center;
+}
+
+.slider-aliados.enpunto {
+  margin-top: 10px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.mascara-aliads {
+  margin-right: 60px;
+  margin-left: 60px;
+}
+
+.slide-logo {
+  width: 20%;
+  padding-top: 18px;
+  text-align: center;
+}
+
+.icon-slider {
+  color: #044f96;
+}
+
+.s-footer-b {
+  padding-top: 50px;
+  padding-bottom: 20px;
+  border-bottom: 5px solid #044f96;
+  background-color: #feca43;
+  font-family: Rubik, sans-serif;
+  color: #044f96;
+  font-size: 1em;
+  font-weight: 500;
+  text-align: center;
+}
+
+.txt-iconos {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  color: #044f96;
+  font-size: 1.3em;
+  letter-spacing: -1px;
+}
+
+.txt-des-icon {
+  color: #4e4e4e;
+  font-size: 1em;
+  line-height: 16px;
+  font-weight: 300;
+  letter-spacing: 0px;
+}
+
+.logo-footer {
+  margin-top: 20px;
+}
+
+.link-redes {
+  margin-right: 10px;
+}
+
+.link-footer {
+  display: block;
+  font-family: Rubik, sans-serif;
+  color: #044f96;
+  font-weight: 400;
+}
+
+.link-footer:hover {
+  color: black;
+  font-size: 1em;
+}
+
+.col2-footer {
+  border-left: 1px solid #044f96;
+}
+
+.s-ciudades {
+  margin-top: 1px;
+  padding-bottom: 45px;
+  font-family: Rubik, sans-serif;
+  color: #7a7a7a;
+  font-size: 1em;
+  font-weight: 400;
+}
+
+.col1-ciudad {
+  padding-top: 45px;
+  padding-bottom: 45px;
+  padding-left: 25px;
+  background-color: #f1f2f3;
+}
+
+.t-cidades {
+  margin-bottom: 21px;
+  font-family: Rubik, sans-serif;
+  color: #044f96;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.link-ciudad {
+  display: block;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #dbdada;
+  font-family: Rubik, sans-serif;
+  color: #044f96;
+  font-size: 1.1em;
+  font-weight: 300;
+  text-decoration: none;
+}
+
+.link-ciudad:hover {
+  color: black;
+}
+
+.link-ciudad.w--current {
+  font-weight: 500;
+}
+
+.col2-ciudades {
+  padding-top: 0px;
+  padding-left: 10px;
+}
+
+.caja-puntos {
+  margin-top: 5px;
+}
+
+.caja-puntos.interna {
+  margin-top: 12px;
+  padding-top: 16px;
+}
+
+.ciudad {
+  color: #044f96;
+  font-size: 1.4em;
+  text-transform: uppercase;
+}
+
+.row-city {
+  margin-top: 5px;
+}
+
+.city {
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 10px;
+  border-right: 5px solid white;
+  background-color: #feca43;
+  color: #044f96;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+.caja-p {
+  margin-top: 13px;
+  margin-right: 10px;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  border-bottom: 1px solid #e6e6e6;
+  font-size: 1em;
+}
+
+.ver-ciudad {
+  display: block;
+  margin-top: 8px;
+  color: #044f96;
+  font-size: 1.1em;
+  font-weight: 500;
+}
+
+.ver-ciudad:hover {
+  color: black;
+}
+
+.select-ciudad {
+  font-weight: 500;
+}
+
+.numero-puntos {
+  font-weight: 500;
+}
+
+.city-select {
+  color: #044f96;
+  font-size: 1.5em;
+  font-weight: 500;
+}
+
+.city-select.nombre-punto {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  font-size: 1.3em;
+  font-weight: 300;
+}
+
+.caja-info-punto {
+  padding: 40px 15px 36px 30px;
+  border-bottom: 5px solid #044f96;
+  background-color: #f0f0f0;
+}
+
+.row-galeria {
+  margin-top: 30px;
+}
+
+.gale-mini {
+  height: 151px;
+  margin-bottom: 4px;
+  margin-left: 5px;
+}
+
+.t-carrusel-p {
+  margin-top: 25px;
+  color: #044f96;
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+@media (max-width: 991px) {
+  .navmenu {
+    position: absolute;
+    top: 51px;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    background-color: #e9e9e9;
+  }
+  .navlink {
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    background-color: #ececec;
+  }
+  .navlink:hover {
+    background-color: transparent;
+    color: black;
+  }
+  .navlink.w--current {
+    background-color: transparent;
+    color: black;
+  }
+  .s-slider {
+    height: 300px;
+    background-image: none;
+  }
+  .slider-home {
+    height: 300px;
+  }
+  .t-secciones {
+    font-size: 1.4em;
+  }
+  .menu-button {
+    background-color: #044f96;
+    color: white;
+  }
+  .menu-button.w--open {
+    background-color: #feca43;
+    color: #044f96;
+  }
+  .s-contenido {
+    padding-right: 10px;
+    padding-left: 10px;
+    text-align: left;
+  }
+  .col2-contenido {
+    position: static;
+    margin-top: 19px;
+  }
+  .col2-ciudades {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .gale-mini {
+    height: 152px;
+  }
+}
+
+@media (max-width: 767px) {
+  .s-slider {
+    height: 227px;
+  }
+  .slider-home {
+    height: 227px;
+  }
+  .s-puntos {
+    padding-top: 15px;
+  }
+  .t-secciones {
+    font-size: 1.2em;
+  }
+  .s-footer {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .img-icon {
+    height: 90px;
+  }
+  .s-logos {
+    padding-top: 20px;
+    padding-bottom: 5px;
+  }
+  .slide-logo {
+    width: 33.33%;
+  }
+  .gale-mini {
+    height: 176px;
+    margin-top: 5px;
+    margin-right: 5px;
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 479px) {
+  .navmenu {
+    top: 36px;
+    background-color: #cecece;
+  }
+  .navlink {
+    background-color: #cecece;
+  }
+  .s-slider {
+    height: 130px;
+  }
+  .slider-home {
+    height: 130px;
+  }
+  .s-bancolombia {
+    padding-right: 5px;
+    padding-left: 5px;
+    font-size: 1em;
+    line-height: 16px;
+  }
+  .img-bancolombia {
+    width: 200px;
+    margin-bottom: 10px;
+  }
+  .h1 {
+    margin-top: 10px;
+    margin-bottom: 2px;
+    font-size: 1.4em;
+    letter-spacing: -1px;
+  }
+  .h1.interna {
+    margin-top: 5px;
+    margin-bottom: 26px;
+    font-size: 1.2em;
+    line-height: 22px;
+  }
+  .h2 {
+    font-size: 1.3em;
+  }
+  .caja-servicios {
+    width: 200px;
+    margin-top: 10px;
+  }
+  .linea {
+    height: 60px;
+    margin-top: 20px;
+  }
+  .s-puntos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .t-secciones {
+    font-size: 1em;
+  }
+  .mapa-puntos {
+    top: -12px;
+    margin-bottom: 33px;
+  }
+  .link-g {
+    font-size: 1em;
+  }
+  .s-footer {
+    padding-right: 10px;
+    padding-left: 10px;
+  }
+  .s-atencion {
+    padding-right: 10px;
+    padding-left: 10px;
+    font-size: 0.9em;
+  }
+  .img-icon {
+    height: 60px;
+    max-width: 100%;
+  }
+  .brand {
+    width: 200px;
+  }
+  .s-logos {
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .s-contenido {
+    font-size: 1em;
+    text-align: left;
+  }
+  .t-paginas {
+    font-size: 1.6em;
+  }
+  .col1-contenido {
+    padding-right: 10px;
+  }
+  .link-servicio {
+    margin-bottom: 20px;
+  }
+  .campo-form {
+    width: 280px;
+  }
+  .slide-logo {
+    width: 100%;
+  }
+  .col2-footer {
+    margin-bottom: 27px;
+    border-left: 1px none black;
+  }
+}
+
